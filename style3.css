@@ -1,0 +1,82 @@
+body{
+    margin: 0;
+    border: 0;
+    background-color: yellow;
+}
+.one{
+    background-color:darkorchid;
+    height: 100px;
+    width: 100px;
+    transition: width 3s;
+}
+.one:hover{
+    width: 400px;
+}
+.two{
+    background-color: darkorchid;
+    height: 100px;
+    width: 100px;
+    transition: height width;
+    transition-duration: 4s;
+ 
+}
+.two:hover{
+    width: 300px;
+    height: 300px;
+}
+.three{
+    background-color:darkorchid;
+    height: 100px;
+    width: 100px;
+    transition: width 2s;
+}
+.three:hover{
+    width: 400px;
+}
+.four{
+    background-color:darkorchid;
+    height: 100px;
+    width: 100px;
+    transition: width 7s;
+}
+.four:hover{
+    width: 400px;
+}
+.five{
+    background-color:darkorchid;
+    height: 100px;
+    width: 100px;
+    transition: width 6s;
+}
+.five:hover{
+    width: 400px;
+}
+.six{
+    background-color:darkorchid;
+    height: 100px;
+    width: 100px;
+    transition: width 6s;
+}
+.six:hover{
+    width: 400px;
+}
+.seven{
+    background-color:darkorchid;
+    height: 100px;
+    width: 100px;
+    transition: width 5s;
+}
+.seven:hover{
+    width: 400px;
+}
+.last1{
+    margin-top: 20px;
+    font-size: 2rem;
+}
+.last{
+    font-size: 2rem;
+}
+li{
+    display: list-item;
+    text-align: -webkit-match-parent;
+}

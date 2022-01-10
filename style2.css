@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    border: 0;
+    background-color: yellow;
+}
+.one{
+    margin-top: 50px;
+    margin-left: 30px;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    background-color: cornflowerblue;
+    animation: skewX 5s linear 1s infinite;
+    
+}
+@keyframes skewX{
+    0% {
+        transform: skewX(0deg);
+    }
+    33%{
+        transform: skewX(30deg);
+    }
+    
+    70% {
+        transform: skewX(-30deg);
+    }
+    100%{
+        transform: skewX(0deg);
+    }
+}
+.two{
+    margin-top: 50px;
+    margin-left: 30px;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    background-color: darkcyan;
+    animation: skewY 5s linear 1s infinite;
+}
+@keyframes skewY{
+    0% {
+        transform: skewY(0deg);
+    }
+    33%{
+        transform: skewY(30deg);
+    }
+    
+    70% {
+        transform: skewY(-30deg);
+    }
+    100%{
+        transform: skewY(0deg);
+    }
+}
+.three{
+    margin-top: 50px;
+    margin-left: 30px;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    background-color:cadetblue;
+    animation: rotate 5s linear 1s infinite;
+}
+@keyframes rotate{
+    0%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(360deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+.four-1{
+    background-color: rgb(23, 58, 3);
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    margin-top: 50px;
+    margin-left: 30px;
+    animation: one 3s linear 2s infinite;
+}
+@keyframes one{
+    0% {
+        transform: scaleY(0.5);
+    }
+    
+    50% {
+        transform: scaleY(1);
+    }
+    100% {
+        transform: scaleY(0.5);
+    }
+}
+.four-2{
+    background-color: orangered;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    margin-top: 50px;
+    margin-left: 30px;
+    animation: two 5s linear 1s infinite;
+    an
+}
+@keyframes two{
+    0% {
+        transform: scaleX(0.5);
+    }
+    
+    50% {
+        transform: scaleX(1);
+    }
+    100% {
+        transform: scaleX(0.5);
+    }
+}
+.four-3{
+    background-color: rgb(102, 6, 126);
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    margin-top: 50px;
+    margin-left: 30px;
+    animation: three 2s linear 2s infinite;
+}
+@keyframes three{
+    0% {
+        transform: rotate(0deg);
+    }    
+    50% {
+        transform: rotate(-90deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+.last{
+    margin-top: 50px;
+    font-size: 2rem;
+}
